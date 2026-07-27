@@ -1,0 +1,259 @@
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6B8FE7;
+    color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, main, footer {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: 'Kavoon', serif;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+nav h2 {
+    font-size: 1.5em;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #1E1E1E;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: 'Inter', sans-serif;
+    color: #e9bb57;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.15em;
+    font-family: 'Inter', sans-serif;
+    color: #484FB7;
+    font-weight: bold;
+}
+
+p, a, li, th, td {
+    font-family: 'Inter', sans-serif;
+    color: #1E1E1E;
+}
+
+header {
+    background-color: #484FB7;
+    text-align: center;
+    padding: 30px 20px;
+    margin-bottom: 0;
+}
+
+header > p {
+    color: #ffffff;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #e9bb57;
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+nav li {
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #484FB7;
+    display: block;
+}
+
+main {
+    background-color: #484FB7;
+    padding: 20px;
+}
+
+#services > section > div{
+    background-color: #e9bb57;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+#why-choose-us {
+    background-color: #D9526F;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+#why-choose-us ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+#why-choose-us li {
+    padding: 20px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#why-choose-us li:nth-child(1) {
+    background-color: #4CA7C0;
+    color: #1E1E1E;
+}
+
+#why-choose-us li:nth-child(2) {
+    background-color: #6B8FE7;
+    color: #1E1E1E;
+}
+
+#why-choose-us li:nth-child(3) {
+    background-color: #e9bb57;
+    color: #1E1E1E;
+}
+
+#why-choose-us li:nth-child(4) {
+    background-color: #FFFFFF;
+    color: #1E1E1E;
+}
+
+#prices section {
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+th {
+    background-color: #E9BB57;
+    color: #1E1E1E;
+    font-size: 0.9;
+    padding: 12px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.95em;
+}
+
+td:first-child {
+    text-align: left;
+    padding-left: 20px;
+}
+
+td:last-child {
+    text-align: right;
+    padding-right: 20px;
+}
+
+#contact {
+    background-color: #D9526F;
+    padding: 30px 20px;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#contact h2 {
+    font-family: Kavoon, serif;
+    color: #FFFFFF;
+}
+
+#contact p {
+    color: #FFFFFF;
+    font-size: 0.95em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#contact a {
+    background-color: #FFFFFF;
+    color: #1E1E1E;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #484FB7;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.85em;
+}
+
+footer p {
+    background-color: #484FB7;
+    text-align: center;
+    padding: 20px;
+    color: #FFFFFF;
+    font-size: 0.85em;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
